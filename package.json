@@ -1,0 +1,33 @@
+{
+  "name": "date-range",
+  "version": "0.0.1",
+  "description": "Generate a range of dates",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive -R test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/landau/date-range.git"
+  },
+  "keywords": [
+    "range",
+    "generator",
+    "date",
+    "series",
+    "time",
+    "array"
+  ],
+  "author": {
+    name: "Trevor Landau",
+    email: "landautrevor@gmail.com",
+    twitter: "https://twitter.com/trevor_landau",
+    github: "https://github.com/landau",
+    website: "http://trevorlandau.net"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/landau/date-range/issues"
+  },
+  "homepage": "https://github.com/landau/date-range"
+}
