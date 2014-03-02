@@ -19,11 +19,11 @@
     "array"
   ],
   "author": {
-    name: "Trevor Landau",
-    email: "landautrevor@gmail.com",
-    twitter: "https://twitter.com/trevor_landau",
-    github: "https://github.com/landau",
-    website: "http://trevorlandau.net"
+    "name": "Trevor Landau",
+    "email": "landautrevor@gmail.com",
+    "twitter": "https://twitter.com/trevor_landau",
+    "github": "https://github.com/landau",
+    "website": "http://trevorlandau.net"
   },
   "license": "MIT",
   "bugs": {
