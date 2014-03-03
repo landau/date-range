@@ -4,7 +4,8 @@
   "description": "Generate a range of dates",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --recursive -R test/"
+    "pretest": "jshint --reporter node_modules/jshint-stylish/stylish.js index.js test.js",
+    "test": "mocha test.js"
   },
   "repository": {
     "type": "git",
@@ -29,5 +30,11 @@
   "bugs": {
     "url": "https://github.com/landau/date-range/issues"
   },
-  "homepage": "https://github.com/landau/date-range"
+  "homepage": "https://github.com/landau/date-range",
+  "devDependencies": {
+    "jshint-stylish": "~0.1.5",
+    "mocha": "~1.17.1",
+    "jshint": "~2.4.4",
+    "should": "~3.1.3"
+  }
 }
