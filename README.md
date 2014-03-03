@@ -5,7 +5,7 @@ Generate a range of dates
 
 ## Install
 
-> `npm i --save date-range`
+`npm i --save date-range`
 
 ## Usage
 
