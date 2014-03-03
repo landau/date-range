@@ -18,7 +18,7 @@ function range(start, end, step) {
   end = end || new Date();
   step = step || range.defaultStep;
 
-  if (!isDate(start) || !isDate(end)) throw new TypeError();
+  if (![start, end].every(isDate)) throw new TypeError();
 
   var length = Math.ceil((end - start) / step);
   var out = new Array(length);
