@@ -5,7 +5,9 @@ Generate a range of dates
 
 ## Install
 
-## API
+> `npm i --save date-range`
+
+## Usage
 
 ```javascript
 var range = require('date-range');
@@ -25,3 +27,11 @@ console.log(range(start, end));
 */
 
 ```
+## Author
+[Trevor Landau](http://trevorlandau.net)
+
+## Contributing
+- Suggestions welcome!
+- Write new tests for new functionality or changes.
+- Ensure tests pass.
+- Ping me on [twitter](http://twitter.com/trevor_landau) if I take too long to respond! That probably means I missed the alert/email.
